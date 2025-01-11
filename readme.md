@@ -105,7 +105,7 @@
 
 # What to Submit
 
-- Your Github Repository . ex.("https://github.com/ProgrammingHero1/B11A1--assignment-1")
-- Your Live Link. ex.(https://github.com/ProgrammingHero1/B11A1--assignment-1)
+- Your Github Repository . ex:https://github.com/monirulpavel06/assignment-1
+- Your Live Link. ex: https://monirulpavel06.github.io/assignment-1/
 
 ---
