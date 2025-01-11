@@ -41,6 +41,7 @@ body{
     display: flex;
     justify-content: space-between;
     justify-items: center;
+    
 }
 .nav-content{
     margin: 30px 0px;
@@ -400,11 +401,100 @@ body{
 }
 
 .donate-box-input{
-    text-align: center;
     border: none;
     font-size: 20px;
     font-weight: 400;
 }
 .donate-box-input:focus{
     outline: none;
+}
+
+.donate-box-btn-div{
+    text-align: center;
+    margin-top: 32px;
+}
+
+/* newsletter-container-styling here */
+.newsletter-container{
+    border-radius: 24px;
+    background: rgb(198, 228, 214);
+    padding: 80px 160px;
+    margin-bottom: 80px;
+}
+.newsletter-container-heading{
+    text-align: center;
+    margin-bottom:16px ;
+}
+
+.newsletter-container-description{
+    color: rgba(14, 14, 14, 0.7);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: center;
+    padding: 0 160px;
+    margin-bottom:24px ;
+    
+}
+
+.newsletter-input-div{
+    display: flex;
+    justify-content: center;
+}
+
+.newsletter-input-email-div{
+    border-radius: 8px 0px 0px 8px;
+    background: rgb(255, 255, 255);
+    width: 600px;
+    height: 55px;
+    padding: 18px 40px 18px 40px;
+    margin-bottom: 25px;
+}
+
+.newsletter-input-email{
+    color: rgba(14, 14, 14, 0.3);
+    font-size: 16px;
+    font-weight: 400;
+    border: none;
+}
+
+.newsletter-input-email:focus{
+    outline: none;
+}
+
+.newsletter-btn{
+    border-radius: 0px 8px 8px 0px;
+}
+
+/* this is footer styling */
+
+.footer-container-title{
+    color: rgb(14, 14, 14);
+    font-size: 32px;
+    font-weight: 700;
+    text-align: center;
+    margin-bottom:32px ;
+    margin-top: 50px;
+    padding: 50px 0 0 0;
+}
+
+.footer-social-div{
+    display: flex;
+    justify-content: center;
+    gap: 24px;
+    margin-top: 32px;
+    padding-bottom: 50px;
+    
+}
+
+hr{
+    width: 1122px;
+    border: 1px solid rgba(14, 14, 14, 0.1);
+    margin: 0 auto;
+}
+
+
+.footer-container{
+    width: 100%;
+    background:white ;
 }
